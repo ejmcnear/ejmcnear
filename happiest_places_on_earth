@@ -1,6 +1,5 @@
 Code for creating wordcloud in shape of mickey-mouse ears
 
-````
   import pandas as pd
   import numpy as np
   import matplotlib.pylab as plt
@@ -63,4 +62,4 @@ Code for creating wordcloud in shape of mickey-mouse ears
   plt.axis("off")
   plt.tight_layout(pad=0)
   plt.show()
-  ````
+
