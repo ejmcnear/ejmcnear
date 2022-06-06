@@ -10,7 +10,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator, get_single_colo
 #creates a png of a wordcloud of the disneyland reviews in the shape of mickey mouse ears
 
 #read text
-data2 = pd.read_csv ('C:/Users/livel/OneDrive/Documents/Tableau Projects/Personal_Projects/Disneyland/DisneylandReviews.csv', usecols = ['Review_Text'], sep = ',', encoding="ISO-8859-1")
+data2 = pd.read_csv ('C:/~filepath~/DisneylandReviews.csv', usecols = ['Review_Text'], sep = ',', encoding="ISO-8859-1")
 
 start_time = time.time()
 
@@ -24,7 +24,7 @@ stopwords = set(stop)
 
 print(stopwords)
 
-building = np.array(Image.open('C://Users/livel/OneDrive/Documents/Tableau Projects/Personal_Projects/Disneyland/ear-mickey-mouse.jpg'))
+building = np.array(Image.open('C://~filepath~/ear-mickey-mouse.jpg'))
 wordcloud = WordCloud(max_words=3000,
                       stopwords = stopwords, 
                       font_path='C:/Windows/Fonts/courbd.ttf',
@@ -50,10 +50,10 @@ wordcloud = WordCloud(max_words=3000,
 
 
 print (wordcloud.layout_)
-wordcloud.to_file(filename = "C:/Users/livel/OneDrive/Documents/Tableau Projects/Personal_Projects/Disneyland/Mickey_Wordcloud.png")
+wordcloud.to_file(filename = "C:/~filepath~/Mickey_Wordcloud.png")
 
 df = pd.DataFrame(wordcloud.layout_, columns = ['Name', 'Size', 'Coord', 'Direction','Color'])
-df.to_csv('C:/Users/livel/OneDrive/Documents/Tableau Projects/Personal_Projects/Disneyland/Mickey_Coordinates.csv')
+df.to_csv('C:/~filepath~/Mickey_Coordinates.csv')
 
 print(' ')
 print ("time elapsed: {:.2f}s".format(time.time() - start_time))
