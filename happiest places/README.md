@@ -1,2 +1,2 @@
-Link to tableau dashboard: https://public.tableau.com/app/profile/evan3299/viz/HappiestPlacesonEarth/Dashboard1
-Link to the Kaggle dataset: https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
+- Link to tableau dashboard: https://public.tableau.com/app/profile/evan3299/viz/HappiestPlacesonEarth/Dashboard1
+- Link to the Kaggle dataset: https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
