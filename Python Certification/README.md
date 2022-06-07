@@ -1,1 +1,1 @@
-Code samples I wrote for my Python3 certication from University of Michigan through Coursera.  Certificate can be viewed [here](https://www.coursera.org/account/accomplishments/specialization/certificate/AR9525P2TNCW)
+Final project I wrote for my Python3 certication from University of Michigan through Coursera.  Certificate can be viewed [here](https://www.coursera.org/account/accomplishments/specialization/certificate/AR9525P2TNCW)
